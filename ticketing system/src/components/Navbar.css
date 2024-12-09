@@ -1,0 +1,54 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #4a90e2; /* Primary color */
+    padding: 10px 20px;
+    border-radius: 10px; /* Rectangle with rounded corners */
+    margin: 15px; /* Space around the navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px; /* Spacing between links */
+  }
+  
+  .navbar a {
+    color: white;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px; /* Slightly rounded buttons */
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Space between letters */
+    word-spacing: 5px; /* Space between words */
+    transition: all 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #50e3c2; /* Secondary color on hover */
+    color: white;
+  }
+  
+  .navbar button {
+    color: white;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px; /* Space between words */
+    transition: all 0.3s ease;
+  }
+  
+  .navbar button:hover {
+    background-color: #50e3c2;
+    color: white;
+    border: 1px solid #50e3c2;
+  }
+  
