@@ -1,3 +1,26 @@
+// fetch("http://localhost:8080/api/login", {
+//     method: "POST",
+//     headers: {
+//         "Content-Type": "application/json"
+//     },
+//     body: JSON.stringify({
+//         "email": "customer2@example.com",
+//         "password": "password123"
+//     }),
+//     credentials: "include"
+// })
+
+// fetch("http://localhost:8080/api/ticket", {
+//     method: "POST",
+//     headers: {
+//         "Content-Type": "application/json"
+//     },
+//     body: JSON.stringify({ "eventId": "6755325fcb62eb49cc60c9d7" }),
+//     credentials: "include"
+// })
+
+// File: simulation-test.js
+
 class SimulationTester {
     constructor() {
         this.ws = null;
