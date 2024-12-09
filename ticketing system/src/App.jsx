@@ -1,4 +1,5 @@
 import React from "react";
+import ConfigurationPage from "./pages/ConfigurationPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="/save-logs" element={<ProtectedRoute>
           <SaveLogs />
         </ProtectedRoute>} />
+        <Route path="/configure" element={<ConfigurationPage />} />
       </Routes>
     </Router>
   );
