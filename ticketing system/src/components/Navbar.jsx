@@ -16,13 +16,11 @@ const Navbar = () => {
           <>
             <Link to="/vendor-dashboard">Vendor Dashboard</Link>
             <Link to="/vendor-dashboard/add-ticket">Add Ticket</Link>
-            <Link to="/vendor-dashboard/add-event">Add Event</Link>
           </>
         ) : userRole === "customer" ? (
           <>
             <Link to="/customer-dashboard">Customer Dashboard</Link>
             <Link to="/customer-dashboard/buy-ticket">Buy Ticket</Link>
-            <Link to="/customer-dashboard/event-details">Event Details</Link>
           </>
         ) : (
           <>
