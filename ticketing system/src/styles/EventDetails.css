@@ -1,0 +1,57 @@
+/* Event Details Styling */
+.event-details {
+    padding: 20px;
+    font-family: "Roboto", sans-serif; /* Use modern font */
+    background-color: #f8f9fa; /* Light background */
+    color: #333;
+  }
+  
+  .event-details h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4a90e2; /* Accent color */
+    margin-bottom: 20px;
+  }
+  
+  .events-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .event-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.2s ease;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .event-card h2 {
+    font-size: 1.8rem;
+    color: #4a90e2;
+  }
+  
+  .event-card p {
+    margin: 10px 0;
+  }
+  
+  .event-card button {
+    background-color: #50e3c2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .event-card button:hover {
+    background-color: #4a90e2;
+  }
+  
